@@ -31,7 +31,7 @@ const Navbar = () => {
           className="w-[28px] h-[28px] object-contain lg:hidden justify-center items-center cursor-pointer self-center"
         />
 
-        <ul className="flex text-white gap-7 justify-center items-center sm:hidden md:hidden lg:flex">
+        <ul className="flex text-white gap-7 justify-center items-center xs:hidden sm:hidden md:hidden lg:flex">
           <li className="hover:text-[#00FFFF] text-white"><a href="#home">Home</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#services">Services</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#about">About</a></li>

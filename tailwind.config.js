@@ -8,6 +8,10 @@ module.exports = {
   ],
   mode: 'jit',
   theme: {
+    screens: {
+      'xs': '475px',
+      ...defaultTheme.screens,
+    },
     extend: {
       colors: {
         'primary-black': '#1A232E',
