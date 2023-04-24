@@ -25,13 +25,13 @@ const Navbar = () => {
         />
 
         <img
-          src="/menu.svg"
+          src="./menu.svg"
           onClick={toggleDrawer}
           alt="menu"
           className="w-[28px] h-[28px] object-contain lg:hidden justify-center items-center cursor-pointer self-center"
         />
 
-        <ul className="flex text-white gap-7 justify-center items-center xs:hidden sm:hidden md:hidden lg:flex">
+        <ul className="flex text-white gap-7 justify-center items-center xs:hidden sm:hidden md:hidden hidden lg:flex">
           <li className="hover:text-[#00FFFF] text-white"><a href="#home">Home</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#services">Services</a></li>
           <li className="hover:text-[#00FFFF] text-white"><a href="#about">About</a></li>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center mb-4">
               <h2 className="font-bold text-2xl">TheUrbanCutStudio</h2>
               <div onClick={toggleDrawer}>
-                <img src="/close.svg" alt="Close" className="w-6 h-6" />
+                <img src="./close.svg" alt="Close" className="w-6 h-6" />
               </div>
             </div>
             <ul className="flex flex-col gap-4 text-white font-semibold">
